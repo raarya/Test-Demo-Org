@@ -2,7 +2,7 @@ global class ScheduleEmail Implements Schedulable
             {
                        global void execute(SchedulableContext sc)
                         {
-                                    sendmail();
+                                    sendmail(); 
                         }
                         public void sendmail()
                         {
